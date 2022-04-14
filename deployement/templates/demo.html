@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for i in post %}
+{{i.title}}
+{{i.description}}
+{{i.img}}
+{{i.created_at}}
+
+</body>
+</html>
