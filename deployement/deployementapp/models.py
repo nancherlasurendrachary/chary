@@ -11,3 +11,4 @@ class Article(models.Model):
     class Meta:
         verbose_name= 'Article'
         verbose_name_plural= 'Articles'
+#this is small changee
